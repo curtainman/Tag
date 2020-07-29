@@ -17,7 +17,7 @@ public class TagPlugin extends JavaPlugin
 	public static boolean configOK;
 	
 	
-	//TODO make a lang file uwu yes
+	//TODO make a lang file
 	
 	@Override
 	public void onEnable()
