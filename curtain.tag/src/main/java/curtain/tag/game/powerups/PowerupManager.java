@@ -55,7 +55,7 @@ public class PowerupManager implements Listener
 			if(event.getItem().getItemMeta().getDisplayName().equals("§7Flyer Powerup §e(Right Click)"))
 			{
 				new FlyerPowerup().onUse(event.getPlayer());
-				event.getPlayer().sendMessage("boomer time");
+	//			event.getPlayer().sendMessage("boomer time");
 			}
 		}
 	}

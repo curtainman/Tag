@@ -20,11 +20,11 @@ public class FlyerPowerup implements Listener, Powerup
 		return UtilItem.createItem(Material.PAPER, "§7Flyer Powerup §e(Right Click)", new String[]
 		{ "§7Right clicking this will allow you to", "§7fly in the air for 5 seconds." });
 	}
-
+	
 	@Override
 	public void onUse(Player user)
 	{
-		Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "effect give" + user.getName() + " minecraft:levitation 5 5");
+		Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "effect give " + user.getName() + " minecraft:levitation 5 5");
 		F.player(user, "You used §eFlyer Powerup§7!");
 		user.getInventory().remove(UtilItem.createItem(Material.PAPER, "§7Flyer Powerup §e(Right Click)"));
 		user.playSound(user.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1, 2);
