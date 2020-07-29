@@ -1,8 +1,0 @@
-name: Tag
-main: curtain.tag.TagPlugin
-version: 0.1
-api-version: 1.16
-author: curtain_
-commands:
-    tag:
-    forceit:
