@@ -84,6 +84,9 @@ public class GameManager
 			p.setPlayerListName(ChatColor.WHITE + p.getName());
 		});
 		this.getPowerupManager().getPowerupLocList().clear();
+		
+		
+		
 	}
 	
 	public void StartGame(Player player)
